@@ -1,0 +1,39 @@
+{
+  "name": "hajizadeha/omnipay-payeer",
+  "type": "library",
+  "description": "Payeer gateway for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "payeer",
+    "purchase"
+  ],
+  "homepage": "https://github.com/hajizadehA/omnipay-payeer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Zhiliaev",
+      "email": "sassoftinc@gmail.com"
+    },
+    {
+      "name": "A H",
+      "email": "hajali707@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Payeer\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "^3.0",
+    "php-http/guzzle7-adapter": "*"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3.0"
+  },
+  "minimum-stability": "stable"
+}
